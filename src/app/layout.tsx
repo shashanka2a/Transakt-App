@@ -12,16 +12,30 @@ export const metadata: Metadata = {
   description: "Revolutionary payment platform for the modern world. Secure, fast, and reliable transactions.",
   keywords: "payments, fintech, transactions, digital payments",
   authors: [{ name: "Transakt Team" }],
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Transakt - Modern Payment Solutions",
     description: "Revolutionary payment platform for the modern world. Secure, fast, and reliable transactions.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/favicon.svg",
+        width: 32,
+        height: 32,
+        alt: "Transakt Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Transakt - Modern Payment Solutions",
     description: "Revolutionary payment platform for the modern world. Secure, fast, and reliable transactions.",
+    images: ["/favicon.svg"],
   },
 };
 
